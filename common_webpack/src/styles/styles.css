@@ -1,0 +1,24 @@
+.container{
+    text-align: center;
+    border: 3px solid black
+}
+
+h3{
+    color: red;
+}
+
+.logo{
+    background-image: url("../assets/webpack-logo.png");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.logo_2{
+    background-image: url("../assets/2009-stadium-about.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    margin: 0 auto;
+}

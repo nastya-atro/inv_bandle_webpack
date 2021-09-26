@@ -1,0 +1,29 @@
+// npm init
+
+// npm install --save-dev webpack
+//  npm install --save-dev webpack-cli
+
+// npm i -D less
+// npm install -D style-loader less-loader file-loader css-loader
+// npm install -D html-webpack-plugin clean-webpack-plugin
+
+ADD TO SCRIPTS:
+//     "dev": "webpack --mode development",
+//     "build": "webpack --mode production",
+
+
+// npm run dev
+
+// npm install -D webpack-dev-server
+
+ADD TO SCRIPTS:
+//     "start": "webpack-dev-server --open"
+
+// npm install --save-dev babel-loader @babel/core
+// npm install @babel/preset-env --save-dev
+// npm install --save-dev @babel/preset-react
+
+// npm install --save @babel/polyfill (уже включено в сборку)
+
+//  npm i --save react react-dom
+
