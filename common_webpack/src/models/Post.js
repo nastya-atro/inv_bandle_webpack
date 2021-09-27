@@ -6,6 +6,6 @@ export class Post{
         this.logo = props.logo;
     }
     getPost(){
-       return this.post = JSON.stringify({name: this.name, title: this.title, logo: this.logo})
+       return this.post = JSON.stringify({name: this.name, title: this.title, logo: this.logo}, null, 2)
     }
 }

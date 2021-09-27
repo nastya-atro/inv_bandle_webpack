@@ -10,5 +10,10 @@ function createAnalytics (){
   }
 }
 
+import ('lodash').then(_=>{
+    console.log('Lodash', _)
+})
+
 const analytics = createAnalytics()
-console.log(analytics.decrement())
+console.log(analytics)
+
